@@ -77,14 +77,14 @@ public void OnPluginStart()
 	
 	BuildPath(Path_SM, g_szLogPath, sizeof(g_szLogPath), "logs/vouchers_core.txt");
 	
-	RegConsoleCmd("sm_voucher_gen", GenerateVoucher_CMD);
-	RegConsoleCmd("sm_voucher_add", CreateVoucher_CMD);
-	RegConsoleCmd("sm_voucher_cmds", SetVoucherCommands_CMD);
+	RegAdminCmd("sm_voucher_gen", GenerateVoucher_CMD, ADMFLAG_ROOT);
+	RegAdminCmd("sm_voucher_add", CreateVoucher_CMD, ADMFLAG_ROOT);
+	RegAdminCmd("sm_voucher_cmds", SetVoucherCommands_CMD, ADMFLAG_ROOT);
 	
-	RegConsoleCmd("sm_voucher_del", DeleteVoucher_CMD);
-	RegConsoleCmd("sm_voucher_rem", DeleteVoucher_CMD);
+	RegAdminCmd("sm_voucher_del", DeleteVoucher_CMD, ADMFLAG_ROOT);
+	RegAdminCmd("sm_voucher_rem", DeleteVoucher_CMD, ADMFLAG_ROOT);
 	
-	RegConsoleCmd("sm_voucher_unblock", Unblock_CMD);
+	RegAdminCmd("sm_voucher_unblock", Unblock_CMD, ADMFLAG_ROOT);
 	
 	RegConsoleCmd("sm_code", UseCode_CMD);
 	RegConsoleCmd("sm_codes", UseCode_CMD);

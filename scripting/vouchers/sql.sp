@@ -125,7 +125,7 @@ public void SQL_UseCodeDataCallback(Database database, DBResultSet results, cons
 				
 				ReplaceString(szServerCmd, sizeof(szServerCmd), "steamid32", szSteamID32);
 				ReplaceString(szServerCmd, sizeof(szServerCmd), "steamid64", szSteamID64);
-				ReplaceString(szServerCmd, sizeof(szServerCmd), "userid", szUserid);
+				ReplaceString(szServerCmd, sizeof(szServerCmd), "userid", szUsername);
 				ReplaceString(szServerCmd, sizeof(szServerCmd), "username", szUsername);
 				
 				ServerCommand(szServerCmd);

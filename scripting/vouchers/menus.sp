@@ -7,10 +7,13 @@ void CodeMenu(int client)
 	
 	Format(szText, sizeof(szText), "%T\n ", "Enter the voucher", client);
 	menu.AddItem("0", szText);
-	Format(szText, sizeof(szText), "%T", "View all vouchers", client);
-	menu.AddItem("1", szText);
-	Format(szText, sizeof(szText), "%T", "Create a new voucher", client);
-	menu.AddItem("2", szText);
+	if (CheckCommandAccess(client, "", ADMFLAG_ROOT))
+	{
+		Format(szText, sizeof(szText), "%T", "View all vouchers", client);
+		menu.AddItem("1", szText);
+		Format(szText, sizeof(szText), "%T", "Create a new voucher", client);
+		menu.AddItem("2", szText);
+	}
 	
 	menu.ExitBackButton = false;
 	menu.Display(client, MENU_TIME_FOREVER);
