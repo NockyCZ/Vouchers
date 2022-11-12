@@ -1,0 +1,204 @@
+"Phrases"
+{
+	"Chat_Prefix"
+	{
+		"en"			"{darkred}[Vouchers]{default}"
+	}
+    "Console_Prefix"
+	{
+		"en"			"[Vouchers]"
+	}
+	"Voucher already used"
+	{
+		"en"			"You have already used this voucher!"
+	}
+    "Voucher was not found"
+	{
+    	"#format"		"{1:s}"
+		"en"			"Voucher {green}{1}{default} was not found!"
+	}
+    "Last usage remaining"
+	{
+		"en"			"WARNING! You have one last attempt to use the voucher!"
+	}
+    "Vouchers usage ban"
+	{
+    	"#format"		"{1:s},{2:s}"
+		"en"			"You wrote the wrong voucher {green}{1} times{default}! You cannot use the command for {darkred}{2} minutes{default}!"
+	}
+    "You are prohibited from using vouchers"
+	{
+		"en"			"You are prohibited from using vouchers!"
+	}
+    "You have been unblocked from using vouchers"
+	{
+		"en"			"You have been unblocked for using vouchers!"
+	}
+    "Operation aborted"
+	{
+		"en"			"Operation aborted."
+	}
+    "Commands deleted"
+	{
+		"en"			"Commands from voucher has been deleted."
+	}
+    "Enter the voucher"
+	{
+		"en"			"Enter the voucher"
+	}
+    "Create a new voucher"
+	{
+		"en"			"Create a new voucher"
+	}
+    "View all vouchers"
+	{
+		"en"			"View all vouchers"
+	}
+    "Write a voucher"
+	{
+		"en"			"Write a voucher in the chat! To cancel, write {green}!cancel"
+	}
+    "Generate a random voucher"
+	{
+		"en"			"Generate a random voucher"
+	}
+    "Create a voucher"
+	{
+		"en"			"Create a voucher"
+	}
+    "Write a new voucher"
+	{
+		"en"			"Write a voucher code in the chat to create a new Voucher. To cancel, write {green}!cancel"
+	}
+    "Write a new commands"
+	{
+		"en"			"Write a new commands in the chat (Separate with {darkred};{default})."
+	}
+    "Write a new commands2"
+	{
+		"en"			"To cancel, write {green}!cancel{default}. To delete all commands, write {green}!none"
+	}
+    "Use ingame menu editor"
+	{
+		"en"			"Use ingame menu editor ({green}/vouchers{default)"
+	}
+    "New Code Created"
+	{
+    	"#format"		"{1:s}"
+		"en"			"A new voucher {green}{1}{default} has been created. Edit it in the menu!"
+	}
+    "Voucher Menu Title"
+	{
+    	"#format"		"{1:s}"
+		"en"			"Voucher - {1}"
+	}
+    "Used Menu"
+	{
+    	"#format"		"{1:i}"
+		"en"			"Used - [{1} times]"
+	}
+    "Usages Remaining Unlimited Menu"
+	{
+		"en"			"Usages remaining - [Unlimited]"
+	}
+    "Usages Remaining Menu"
+	{
+    	"#format"		"{1:i}"
+		"en"			"Usages remaining - [{1}]"
+	}
+    "Validity Forever Menu"
+	{
+		"en"			"Validity - [Forever]"
+	}
+    "Validity Menu"
+	{
+    	"#format"		"{1:s}"
+		"en"			"Validity - [{1}]"
+	}
+    "Message None Menu"
+	{
+		"en"			"Message - [None]"
+	}
+    "Message Menu"
+	{
+    	"#format"		"{1:s}"
+		"en"			"Message - [{1}]"
+	}
+    "Commands Not Set Menu"
+	{
+		"en"			"Command(s)\n ↳ Not set"
+	}
+    "Commands Menu"
+	{
+    	"#format"		"{1:s}"
+		"en"			"Command(s)\n{1}"
+	}
+    "Edit Voucher Menu"
+	{
+		"en"			"Edit voucher"
+	}
+    "Save"
+	{
+		"en"			"Save"
+	}
+    "Delete"
+	{
+		"en"			"Delete"
+	}
+    "Voucher Edited"
+	{
+    	"#format"		"{1:s}"
+		"en"			"Voucher {green}{1}{default} edited successfully!"
+	}
+    "Voucher Deleted"
+	{
+    	"#format"		"{1:s}"
+		"en"			"Voucher {green}{1}{default} successfully deleted!"
+	}
+    "Voucher Used"
+	{
+    	"#format"		"{1:s}"
+		"en"			"Voucher {green}{1}{default} successfully used!"
+	}
+    "Edit Voucher"
+	{
+    	"#format"		"{1:s}"
+		"en"			"Edit voucher - {1}"
+	}
+    "Validity"
+	{
+		"en"			"Validity"
+	}
+    "Minutes"
+	{
+		"en"			"Minute(s)"
+	}
+    "Hours"
+	{
+		"en"			"Hour(s)"
+	}
+    "Days"
+	{
+		"en"			"Day(s)"
+	}
+    "Forever"
+	{
+		"en"			"Forever"
+	}
+    "Unlimited"
+	{
+		"en"			"Unlimited"
+	}
+    "None"
+	{
+		"en"			"None"
+	}
+    "Maximum use"
+	{
+		"en"			"Maximum usages"
+	}
+    "Message phrase"
+	{
+		"en"			"Message phrase"
+	}
+}

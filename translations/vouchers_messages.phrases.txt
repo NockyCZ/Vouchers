@@ -1,0 +1,15 @@
+"Phrases"
+{
+    "TEST PHRASE"
+	{
+		"en"			"This test phrase will be sent after player uses a voucher"
+	}
+    "CREATE NEW MESSAGE"
+	{
+		"en"			"Don't forget to create new messages which you want"
+	}
+    "EXAMPLE VIP MESSAGE"
+	{
+		"en"			"{darkred}[Vouchers] {default}You successfully get {orange}VIP{default} for {green}1 month{default}!"
+	}
+}
